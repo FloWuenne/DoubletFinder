@@ -1,5 +1,6 @@
 doubletFinder_ParamSweep <- function(seu,
-                                     reduction_method = "tsne"){
+                                     reduction_method = "tsne",
+                                     pN = c(0.05)){
   require(Seurat)
   require(fields)
 
